@@ -3,7 +3,10 @@
 ## Usage
 
 * npm install
-* Edit config.json.example and run app.js
+* Copy config.json.example to config.json
+* Edit config.json
+* Tip, install https://github.com/codealchemist/youtube-audio-server for the mediaServer
+* run `node app.js
 
 ## Sonos setup
 

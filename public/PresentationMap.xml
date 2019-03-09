@@ -3,10 +3,10 @@
     <PresentationMap type="Search">
         <Match>
             <SearchCategories>
-                <Category id="tracks" />
-                <Category id="playlists" />
-                <Category id="people" />
-                <Category id="tags" />
+                <Category mappedId="people" id="people"/>
+                <Category mappedId="tags" id="tags"/>
+                <Category mappedId="tracks" id="tracks"/>
+                <Category mappedId="playlists" id="playlists"/>
             </SearchCategories>
         </Match>
     </PresentationMap>

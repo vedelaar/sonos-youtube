@@ -73,10 +73,6 @@ var sonosService = {
             search: function (args, callback) {
                 winston.info("search: " + util.inspect(args));
 
-                if (args.term.slice(-1) != "?") {
-                    callback(models.searchResult([], false));
-                    return;
-                }
 
                 var term = args.term.substring(0, args.term.length - 1);
 
